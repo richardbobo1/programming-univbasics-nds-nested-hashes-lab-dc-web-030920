@@ -67,7 +67,6 @@ def aoh_update(aoh, row, key, new_value)
   
   
  # local_copy_aoh = aoh
-  
 #  local_copy_aoh[row][key] = new_value
   
  # local_copy_aoh
