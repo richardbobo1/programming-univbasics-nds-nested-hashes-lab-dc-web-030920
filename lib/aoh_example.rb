@@ -61,9 +61,10 @@ aoh_lookup(assembled_aoh, 2, :name )
 
 def aoh_update(aoh, row, key, new_value)
   
+
   aoh[row][key] = new_value
-  
   aoh 
+  
   
  # local_copy_aoh = aoh
   
@@ -77,5 +78,6 @@ def aoh_update(aoh, row, key, new_value)
   # Return the updated AoH
   
 end
+
 
 aoh_update(assembled_aoh, 1, :name, "Joelle van Dyne")
